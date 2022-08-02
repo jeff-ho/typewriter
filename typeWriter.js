@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "hello there from lighthouse labs\n";
 
 const typeWriter = function (sentence) {
   let time = 100;
@@ -10,5 +10,4 @@ const typeWriter = function (sentence) {
   }
 };
 
-typeWriter(sentence) 
-
+typeWriter(sentence);
